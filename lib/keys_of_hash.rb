@@ -6,6 +6,5 @@ class Hash
       self.each do |k, v|
     binding.pry
     end
-    end
   end
 end
