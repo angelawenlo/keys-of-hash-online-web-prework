@@ -4,8 +4,8 @@ class Hash
     # code goes here
     animals = []
       self.each do |animal, place|
-        if country == v
-          animals << k
+        if arguments.include?(place)
+          animals << animal
         end
         end
     end
