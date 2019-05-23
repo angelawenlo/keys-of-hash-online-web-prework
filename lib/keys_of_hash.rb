@@ -4,6 +4,7 @@ class Hash
     # code goes here
     animals = []
     arguments.each do |info|
+      self.each do |k, v|
     binding.pry
   end
 end
