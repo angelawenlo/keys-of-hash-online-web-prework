@@ -7,7 +7,6 @@ class Hash
       self.each do |k, v|
         if country == v
           animals << k
-    binding.pry
     end
   end
 end
