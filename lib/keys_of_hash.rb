@@ -3,11 +3,11 @@ class Hash
   def keys_of(*arguments)
     # code goes here
     animals = []
-      self.each {|animal, place|
-        if arguments.include?(place)
+      arguments.each do |places|
+      self.each do |animal, place|
+        if place == places
           animals << animal
         end
-      }
-        return animals
+      end
   end
 end
