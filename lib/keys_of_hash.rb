@@ -9,5 +9,6 @@ class Hash
           animals << animal
         end
       end
+      animals
   end
 end
