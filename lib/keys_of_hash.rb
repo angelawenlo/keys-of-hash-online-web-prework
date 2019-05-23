@@ -3,8 +3,7 @@ class Hash
   def keys_of(*arguments)
     # code goes here
     animals = []
-      arguments.each do |country|
-      self.each do |k, v|
+      self.each do |animal, place|
         if country == v
           animals << k
         end
