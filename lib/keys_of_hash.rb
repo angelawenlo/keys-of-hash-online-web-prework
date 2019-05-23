@@ -9,7 +9,7 @@ class Hash
           animals << animal
         end
       end
+      end
       animals
-  end
 end
 end
