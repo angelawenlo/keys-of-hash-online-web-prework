@@ -7,6 +7,7 @@ class Hash
       self.each do |k, v|
         if country == v
           animals << k
+        end
     end
   end
 end
