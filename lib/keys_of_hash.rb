@@ -8,6 +8,7 @@ class Hash
         if country == v
           animals << k
         end
+        end
     end
   end
 end
